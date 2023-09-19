@@ -1,0 +1,8 @@
+body {
+    background-size: cover;
+    background-image: url(/codechallenge3/images/kitten.jpg);
+    background-repeat: no-repeat;
+}
+#kitten {
+    font-size: 3rem;
+}
