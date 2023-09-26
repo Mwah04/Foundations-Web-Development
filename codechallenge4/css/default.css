@@ -1,0 +1,37 @@
+body {
+    background-size: contain;
+    background-image: url(/codechallenge4/images/pets.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.title {
+    font-size: 3rem; 
+    font-family: 'Gloria Hallelujah';
+    text-align: center;
+}
+.subtitle {
+    font-family: 'Open Sans';
+    font-size: 1.5rem;
+    text-align: center;
+}
+nav {
+    background-color: #808080;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-left: 50px;
+    padding-right: 100px;
+
+}
+a {
+    font-size: 3vh;
+    color: white;
+    font-family: 'Open Sans'; 
+    width: 15%;
+}
+
+
