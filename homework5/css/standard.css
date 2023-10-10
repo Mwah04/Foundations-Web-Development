@@ -1,0 +1,16 @@
+nav {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+a {
+    color: white;
+}
+@media screen and (max-width: 600px) { 
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
