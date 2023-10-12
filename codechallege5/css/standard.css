@@ -1,0 +1,57 @@
+footer {
+    background-color: pink;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+footer a {
+    padding: 10px;
+    color: black;
+}
+ul li {
+    display: inline;
+}
+header nav a {
+    color: black;
+    padding: 10px;
+}
+header nav {
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 600px) {
+    .images {
+        display: flex;
+        flex-direction: column;
+    }
+    .paragraphs {
+        display: flex;
+        flex-direction: column;
+    }
+    footer {
+        display: none;  
+    }
+    .images {
+        display: flex;
+        flex-direction: column;
+    }
+    ul li {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+.images {
+    display: flex;
+    width: 400px;
+    height: 400px;
+}
+
+
+
+
+
