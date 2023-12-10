@@ -279,13 +279,17 @@ button {
         flex-direction: column;
         padding-left: 70px;
     }
-    .mainHeader:hover {
+    .mainHeader {
         display: flex;
         flex-direction: column; 
     }
     .locationsLink {
         display: flex;
         flex-direction: column;
+    }
+    .galleryHeader {
+        display: flex;
+        flex-direction: center;
     }
 }
 
